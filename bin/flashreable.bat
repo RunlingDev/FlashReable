@@ -64,5 +64,5 @@ echo Flash Player Reable Succeed.Congratulations!
 echo You can now use Adobe Flash Player without FlashHelper.
 echo Thanks for your using.
 echo Note:If it couldn't work, try to use the extra version of this script:
-echo https://github.com/RunlingDev/FlashReable/blob/main/bin/extra_fra.bat
+echo https://github.com/RunlingDev/FlashReable/releases/download/v1.0/extra_fra.bat
 pause
