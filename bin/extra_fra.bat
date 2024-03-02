@@ -79,5 +79,5 @@ color 1F
 echo Settings.sol Overwriting Succeed.Congratulations!
 echo Thanks for your using.
 echo Note:You'd better run again the common version.
-echo https://github.com/RunlingDev/FlashReable/releases/download/v1.0/flashreable.bat
+echo https://github.com/RunlingDev/FlashReable/releases/download/v1.1/flashreable.bat
 pause
