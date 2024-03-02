@@ -23,7 +23,7 @@
 ### 删除配置文件
 
 当出现中国区提示时，会生成`settings.sol`配置文件，只要其存在就会提示中国区。
-一般该文件位于`C:\Users\<UsrNm>\AppData\Roaming\Macromedia\Flash Player\macromedia.com\support\flashplayer\sys`
+一般该文件位于`C:\Users\%username%\AppData\Roaming\Macromedia\Flash Player\macromedia.com\support\flashplayer\sys`
 但也可能在其他位置
 默认脚本删除上述位置的`settings.sol`并新建空同名文件且设置为只读。
 
