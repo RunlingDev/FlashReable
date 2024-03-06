@@ -33,12 +33,12 @@ echo Github:https://github.com/RunlingDev/FlashReable
 echo -----
 
 echo Deleting Settings.sol...
-del /q /f "C:\Users\%username%\AppData\Roaming\Macromedia\Flash Player\macromedia.com\support\flashplayer\sys\settings.sol"
+del /q /f "%userprofile%\AppData\Roaming\Macromedia\Flash Player\macromedia.com\support\flashplayer\sys\settings.sol"
 echo Done.
 
 echo New Empty Settings.sol...
 set opwd=%cd%
-cd /d "C:\Users\%username%\AppData\Roaming\Macromedia\Flash Player\macromedia.com\support\flashplayer\sys\"
+cd /d "%userprofile%\AppData\Roaming\Macromedia\Flash Player\macromedia.com\support\flashplayer\sys\"
 echo 2>settings.sol
 attrib settings.sol +r
 cd /d %opwd%
@@ -50,6 +50,7 @@ echo If the Manager reports error, please choose "allowed".
 echo 如果杀毒软件报错，请选择允许。
 
 cd /d "C:\Windows\System32\drivers\etc\"
+attrib hosts -r
 echo  127.0.0.1 flash.cn>>hosts
 echo  127.0.0.1 geo2.adobe.com>>hosts
 echo  127.0.0.1 macromedia.com>>hosts
